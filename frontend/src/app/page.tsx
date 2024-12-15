@@ -39,7 +39,7 @@ export default function Home() {
 
   const submitPost = useCallback((e: React.FormEvent<SubmitPostFormElement>) => {
     e.preventDefault()
-    
+
     const newPost: Post = {
       author: '123',
       date: (new Date()).toISOString(),
@@ -55,13 +55,13 @@ export default function Home() {
     return (
       <div className="flex items-center justify-items-center min-h-screen">
         <div className="flex m-auto">
-            <button
-              type="button"
-              onClick={() => {setIsLogged(true)}}
-              className="flex items-center rounded-full border justify-center bg-foreground text-background hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            >
-              Connect with 👻
-            </button>
+          <button
+            type="button"
+            onClick={() => { setIsLogged(true) }}
+            className="flex items-center rounded-full border justify-center bg-foreground text-background hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
+          >
+            Connect with 👻
+          </button>
         </div>
       </div>
     )

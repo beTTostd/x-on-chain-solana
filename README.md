@@ -37,3 +37,8 @@ TODOS
 - fazer login com a phantom
 
 [Soundtrack](https://youtu.be/Gj-jmBi0aK8?si=v_oiHFiSfL-KnqX2)
+
+### Dia 2
+
+consegue fazer fazer o eslint funcionar em poucos minutos, partiu phantom
+
